@@ -3,4 +3,7 @@ from providers import Provider
 
 class Taobao(Provider):
     def __init__(self) -> None:
-        pass
+        super().__init__()
+
+    def watch(self):
+        super().watch()
